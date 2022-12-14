@@ -4,13 +4,13 @@ red = '\33[91m'
 white = '\33[0m'
 blue = '\33[96m'
 def input1():
-    call(["python", "Main/förstav2.py"])
+    call(["python", "förstav2.py"])
 def input2():
-    call(["python", "Main/andra.py"])
+    call(["python", "andra.py"])
 def input3():
-    call(["python", "Main/tredje.py"])
+    call(["python", "tredje.py"])
 def input4():
-    call(["python", "Main/fjärde.py"])
+    call(["python", "fjärde.py"])
 
 
 def print_menu():
