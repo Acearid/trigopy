@@ -1,5 +1,5 @@
 import math
-# define variables from user input. We get the measurements of d1 and d2 and h1 and h2, 1 being the ones closer and 2 the furthr peak.
+# define variables from user input. We get the measurements of d1 and d2 and h1 and h2, d1 h1 being the closer peak and d2,h2 the furthr peak.
 peak1_height = float(input("Enter the height of the first peak in meters: "))
 peak1_distance = float(input("Enter the distance of the first peak from you in meters: "))
 peak2_height = float(input("Enter the height of the second peak in meters: "))
