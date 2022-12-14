@@ -1,14 +1,14 @@
 from subprocess import call
 
 def input1():
-    call(["python", "./main/förstauppgift.py"])
+    call(["python", "förstauppgift.py"])
 
 def input2():
-    call(["python", "./main/andra.py"])
+    call(["python", "andra.py"])
 def input3():
-    call(["python", "./main/tredje.py"])
+    call(["python", "tredje.py"])
 def input4():
-    call(["python", "./main/fjärde.py"])
+    call(["python", "fjärde.py"])
 
 
 def print_menu():
