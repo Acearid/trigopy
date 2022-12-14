@@ -1,7 +1,4 @@
-import imp
-from traceback import print_tb
 from subprocess import call
-from turtle import goto
 
 def input1():
     call(["python", "./main/förstauppgift.py"])
