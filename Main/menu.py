@@ -4,7 +4,7 @@ red = '\33[91m'
 white = '\33[0m'
 blue = '\33[96m'
 def input1():
-    call(["python", "förstauppgift.py"])
+    call(["python", "förstav2.py"])
 def input2():
     call(["python", "andra.py"])
 def input3():

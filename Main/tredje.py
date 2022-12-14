@@ -1,4 +1,5 @@
 import math
+
 def tree_height(baseline_distance, base_angle, top_angle):
   height = (baseline_distance * math.tan(top_angle)) - (baseline_distance * math.tan(base_angle))
   return height
