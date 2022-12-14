@@ -2,7 +2,6 @@ from subprocess import call
 
 def input1():
     call(["python", "förstauppgift.py"])
-
 def input2():
     call(["python", "andra.py"])
 def input3():
@@ -40,7 +39,7 @@ def mainfunc():
     elif option == "3":
         input3()
     elif option == "4":
-        input4
+        input4()
     elif option == "5":
         exit()
 
