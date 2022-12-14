@@ -4,13 +4,13 @@ red = '\33[91m'
 white = '\33[0m'
 blue = '\33[96m'
 def input1():
-    call(["python", "förstav2.py"])
+    call(["python", "Main/förstav2.py"])
 def input2():
-    call(["python", "andra.py"])
+    call(["python", "Main/andra.py"])
 def input3():
-    call(["python", "tredje.py"])
+    call(["python", "Main/tredje.py"])
 def input4():
-    call(["python", "fjärde.py"])
+    call(["python", "Main/fjärde.py"])
 
 
 def print_menu():
@@ -21,6 +21,7 @@ def print_menu():
     print(blue + "[4]" + white + "Vilket bärg är störst")
     print(blue + "[5]" + white + "Exit")
     print("-----------------------------")
+
 def mainfunc():
     print(red +"""
 
@@ -32,7 +33,7 @@ def mainfunc():
  |_| |_| |_|\__,_|\__|\__\___|\__,_| .__/| .__/ \__, |_|_|  \__\___|_| |_|
                                    | |   | |     __/ |                    
                                    |_|   |_|    |___/                     
-""" + white)
+ """ + white)
     print_menu()
     option = input("val >> ")
     if option == "1":
