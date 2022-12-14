@@ -1,5 +1,8 @@
 from subprocess import call
 
+red = '\33[91m'
+white = '\33[0m'
+blue = '\33[96m'
 def input1():
     call(["python", "förstauppgift.py"])
 def input2():
@@ -12,14 +15,14 @@ def input4():
 
 def print_menu():
     print("-----------------------------")
-    print("[1] Avståndet mellan stjärnor")
-    print("[2] Avståndet mellan jorden och stärna")
-    print("[3] Höjden av ett träd")
-    print("[4] Vilket bärg är störst")
-    print("[5] Exit")
+    print(blue + "[1]" + white + "Avståndet mellan stjärnor")
+    print(blue + "[2]" + white +  "Avståndet mellan jorden och stärna")
+    print(blue + "[3]" + white + "Höjden av ett träd")
+    print(blue + "[4]" + white + "Vilket bärg är störst")
+    print(blue + "[5]" + white + "Exit")
     print("-----------------------------")
 def mainfunc():
-    print("""
+    print(red +"""
 
                   _   _                               _  __ _             
                  | | | |                             (_)/ _| |            
@@ -29,7 +32,7 @@ def mainfunc():
  |_| |_| |_|\__,_|\__|\__\___|\__,_| .__/| .__/ \__, |_|_|  \__\___|_| |_|
                                    | |   | |     __/ |                    
                                    |_|   |_|    |___/                     
-""")
+""" + white)
     print_menu()
     option = input("val >> ")
     if option == "1":
