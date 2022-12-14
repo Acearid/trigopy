@@ -1,7 +1,7 @@
 from subprocess import call
 
 def input1():
-    call(["python", "förstauppgift.py"])
+    call(["python", "förstav2.py"])
 def input2():
     call(["python", "andra.py"])
 def input3():

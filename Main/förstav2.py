@@ -13,4 +13,4 @@ angle_radians = angle * (math.pi / 180)
 star_distance = math.sqrt(star1_distance**2 + star2_distance**2 - 2 * star1_distance * star2_distance * math.cos(angle_radians))
 
 # print the distance between the stars
-print("The distance between the stars is %.2f light years." % star_distance)
+print("The distance between the stars is %.3f light years." % star_distance)
