@@ -3,13 +3,13 @@ red = '\33[91m'
 white = '\33[0m'
 blue = '\33[96m'
 def input1():
-    os.system('python Main/first.py')
+    os.system('python first.py')
 def input2():
-    os.system('python Main/andra.py')
+    os.system('python andra.py')
 def input3():
-    os.system('python Main/tredje.py')
+    os.system('python tredje.py')
 def input4():
-    os.system('python Main/fjärde.py')
+    os.system('python fjärde.py')
 
 
 def print_menu():
