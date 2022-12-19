@@ -1,17 +1,15 @@
-from subprocess import call
-from Main import andra
-
+import os
 red = '\33[91m'
 white = '\33[0m'
 blue = '\33[96m'
 def input1():
-    call(["python", "Main\förstav2.py"])
+    os.system('python Main/first.py')
 def input2():
-    call(["python", "andra.py"])
+    os.system('python Main/andra.py')
 def input3():
-    call(["python", "tredje.py"])
+    os.system('python Main/tredje.py')
 def input4():
-    call(["python", "fjärde.py"])
+    os.system('python Main/fjärde.py')
 
 
 def print_menu():
