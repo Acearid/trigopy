@@ -9,7 +9,7 @@ def input2():
 def input3():
     os.system('python tredje.py')
 def input4():
-    os.system('python fjärde.py')
+    os.system('python fjärdev2.py')
 
 
 def print_menu():
